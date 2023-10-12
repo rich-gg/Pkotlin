@@ -8,3 +8,5 @@ This is a refreshed version of Northprint ( https://github.com/northprint )
 ProcessingForAndroid ( https://github.com/northprint/ProcessingForAndroid )
 
 Runs on Android Studio Girafe, API 34
+
++ Added a Processing for Android Logo Splashscreen 
