@@ -1,7 +1,8 @@
-package gg.rich.pkotlin
+package gg.rich.pkotlin.sketch
 
 import processing.core.PApplet
-class Sketch : PApplet() {
+
+class Pkotlin_Main : PApplet() {
     override fun setup() {
         // 背景色
         background(255)

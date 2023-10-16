@@ -2,6 +2,7 @@
 
 package gg.rich.pkotlin
 
+import gg.rich.pkotlin.sketch.Pkotlin_Main
 //import android.app.ActionBar.LayoutParams
 import android.os.Bundle
 //import android.support.v7.app.AppCompatActivity
@@ -32,7 +33,7 @@ class MainActivity : AppCompatActivity() {
         )
 
         // PAppletクラスを継承したSketchクラスをNewする
-        val sketch = Sketch()
+        val sketch = Pkotlin_Main()
         // PFragmentで描画
         val fragment = PFragment(sketch)
         fragment.setView(frame, this)
